@@ -1,0 +1,13 @@
+/*居中布局---网格布局*/
+.login{
+    display: grid;
+    place-items: center;
+    padding: -20px;
+    margin-top: 20px;
+    background: antiquewhite;
+}
+.input{
+    size: 10px;
+    font-size: medium;
+    text-align: center;
+}

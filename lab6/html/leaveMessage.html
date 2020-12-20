@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>留言系统</title>
+    <script src="../js/leaveMessage.js" rel="script" type="text/javascript"></script>
+    <script>
+        let select = document.getElementById("to_who");
+        for (var i=0;i<select.options)
+    </script>
+</head>
+<body>
+    <label>
+        <textarea name="message" cols="100" rows="40" maxlength="100">请输入留言信息
+        </textarea><br>
+        <select id="to_who">
+            <option>杨骏</option>
+            <option>吴臻</option>
+            <option>李江</option>
+        </select>
+        <input type="submit" name="submit" value="submit" onclick="confirm_leaveMessage()"/>
+    </label>
+</body>
+</html>

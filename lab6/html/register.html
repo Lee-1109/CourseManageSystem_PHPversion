@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册用户</title>
+    <link href="../css/login.css" type="text/css" rel="stylesheet"/>
+    <script src="../js/MysqlDBConnection.js" type="text/javascript" rel="script"></script>
+</head>
+<body>
+    <form action="../php/doRegister.php" method="post">
+        <label>请绑定手机号:<input type="text" id="register_id" name="register_id" size="20" onmouseleave="validate()"/></label>
+        <label>请设置密码:<input type="password" name="register_password" size="20" alt="your password"/></label><br>
+        <hr>
+        <h4>请您设置详细信息</h4>
+        <hr>
+        <label>昵 称:<input type="text" name="nickName" size="20" alt="please input your nickname"/></label><br>
+        <label>真实姓名:<input type="text" name="userTrueName" size="20" alt="your true name"/></label><br>
+        <label>邮 箱:<input type="text" name="email" size="20" /></label><br>
+        <label>地 址:<input type="text" name="address" size="20"/></label><br>
+        <input type="submit" name="register" value="register" size="10"/>
+    </form>
+</body>
+</html>

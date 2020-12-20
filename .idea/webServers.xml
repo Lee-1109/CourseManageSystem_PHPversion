@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7458622b-324d-4348-94d5-c32ec7156721" name="Apache" url="http://www.xwx.com:81">
+        <fileTransfer mountedRoot="D:\Web\VirtualHostWorkSpace\xwx" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

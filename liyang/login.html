@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>南昌航空大学统一认证登陆系统</title>
+</head>
+<body>
+<h3>南昌航空大学教务信息管理系统</h3>
+<h4>登陆</h4>
+    <div class="login">
+        <form method="post" action="php/doLogin.php">
+        <span id="loginSpan"></span>
+            <table>
+                <tr>
+                    <td><label>账 号:</label></td>
+                    <td><label for="XH"></label><input class="input" type="text" id="XH" name="userName" placeholder="用户名\手机号\邮箱"/></td>
+                </tr>
+                <tr>
+                    <td><label>密 码:</label></td>
+                    <td><label for="MM"></label><input class="input" type="password" id="MM" name="userPassword" placeholder="请输入密码"/></td>
+                </tr>
+                <tr>
+                    <td><label>登陆类型:</label></td>
+                    <td><label for="LX"></label><select class="select" id="LX" name="type">
+                        <option value="0">学生</option>
+                        <option value="1">教职工</option>
+                        <option value="2">系统管理员</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr><td><input id="btn" type="submit" name="login" value="登陆"/></td></tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
